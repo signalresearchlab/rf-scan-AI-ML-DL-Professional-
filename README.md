@@ -1,5 +1,3 @@
-📝 Complete README.md Content:
-markdown
 
 # RF Scanner AI 🛰️
 
