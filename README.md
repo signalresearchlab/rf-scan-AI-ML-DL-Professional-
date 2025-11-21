@@ -754,8 +754,7 @@ MIT License - Full text available in LICENSE file.
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND. USERS ARE SOLELY RESPONSIBLE FOR ENSURING THEIR USE COMPLIES WITH ALL APPLICABLE LAWS AND REGULATIONS. THE AUTHORS AND COPYRIGHT HOLDERS SHALL NOT BE HELD LIABLE FOR ANY MISUSE, DAMAGES, OR LEGAL VIOLATIONS RESULTING FROM THE USE OF THIS SOFTWARE.
 
 ALWAYS CONSULT WITH LEGAL COUNSEL AND OBTAIN PROPER AUTHORIZATIONS BEFORE DEPLOYING OR USING THIS SOFTWARE IN ANY CAPACITY.
-
-
+<div align="center">
 ⭐ If you find this project useful, please give it a star on GitHub!
 
 Built with ❤️ by Signal Research Lab
@@ -764,7 +763,7 @@ https://img.shields.io/badge/Made%2520with-Python-3776AB?style=for-the-badge&log
 https://img.shields.io/badge/Web%2520Framework-Flask-000000?style=for-the-badge&logo=flask&logoColor=white
 https://img.shields.io/badge/ML-Framework-TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white
 https://img.shields.io/badge/Ethical%2520Use-Required-important?style=for-the-badge
-
+</div>
 🔄 Version History
 
     v1.0.0 (Current) - Initial release with dual dashboards and AI/ML capabilities
@@ -779,13 +778,13 @@ GitHub: github.com/signalresearchlab
 Services: Custom RF software development, problem resolution, vulnerability assessment, and AI/ML solutions
 
 ⚠️ REMEMBER: ALWAYS USE RESPONSIBLY AND LEGALLY!
-
+<div align="center">
 🔗 Connect With Us
 
 https://img.shields.io/badge/Email-Support-red?style=for-the-badge&logo=gmail
 https://img.shields.io/badge/WhatsApp-Chat-green?style=for-the-badge&logo=whatsapp
 https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github
 https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin
+</div>
 
-
-
+Now the badges are properly formatted and will display correctly on GitHub! The README is complete and ready for your repository.
