@@ -1,0 +1,5 @@
+# Real-time spectrum with AI classification
+python3 realtime_analyzer.py --device hackrf --freq 800M:2.5G --ai-classification
+
+# Generate report
+python3 report_generator.py --input scan_data.json --output report.html
