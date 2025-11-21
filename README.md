@@ -510,44 +510,5 @@ Thank you for your interest in contributing to RF Scanner AI!
 2. Create CODE_OF_CONDUCT.md:
 markdown
 
-# Contributor Covenant Code of Conduct
-
-## Our Pledge
-We as members pledge to make participation in our project a harassment-free experience for everyone.
-
-## Our Standards
-- Using welcoming and inclusive language
-- Being respectful of differing viewpoints
-- Gracefully accepting constructive criticism
-- Focusing on what is best for the community
-
-## Enforcement
-Instances of abusive behavior may be reported to the project team at signalresearchlab@gmail.com.
-
-3. Create SECURITY.md:
-markdown
-
-# Security Policy
-
-## Supported Versions
-We currently support version 1.0.0 with security updates.
-
-## Reporting a Vulnerability
-**DO NOT CREATE A PUBLIC ISSUE** for security vulnerabilities.
-
-Email security reports to: signalresearchlab@gmail.com
-We will respond within 48 hours.
-
-🚀 Final GitHub Upload:
-
-Now you can upload all these files to your GitHub repository. Your project will have:
-
-✅ Complete professional documentation
-✅ Legal compliance and ethical guidelines
-✅ Detailed setup and usage instructions
-✅ Your contact information
-✅ Contribution guidelines
-✅ Security policies
-
-Your GitHub repository will be ready for public release with all necessary documentation and legal protections! 🎉
-This response is AI-generated, for reference only.
+Contact us : Signal Research Lab
+ 
