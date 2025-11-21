@@ -1,267 +1,202 @@
-RF Scanner AI - Advanced RF Signal Detection & Analysis
+# RF Scanner AI - Advanced RF Signal Detection & Analysis
 
-https://img.shields.io/badge/RF-Scanner%2520AI-blue
-https://img.shields.io/badge/Python-3.8%252B-green
-https://img.shields.io/badge/License-MIT-lightgrey
-https://img.shields.io/badge/AI-ML%252FDL%2520Powered-orange
-https://img.shields.io/badge/SDR-HackRF%252FRTL--SDR-brightgreen
-https://img.shields.io/badge/Real--time-Monitoring-red
-https://img.shields.io/badge/Dual-Dashboard-9cf
-https://img.shields.io/badge/Database-SQLite-ff69b4
-https://img.shields.io/badge/Web-Flask-yellow
-https://img.shields.io/badge/ML-TensorFlow%252FPyTorch-orange
-https://img.shields.io/badge/Version-1.0.0-blueviolet
-https://img.shields.io/badge/Compliance-FCC%252FITAR%252FWARP-brightgreen
-https://img.shields.io/badge/Ethical%2520Use-Required-important
-⚠️ LEGAL AND ETHICAL USE WARNING
-🚫 STRICT PROHIBITION OF MALICIOUS ACTIVITIES
+<div align="center">
 
-RF Scanner AI is developed strictly for legitimate purposes including research, education, authorized security testing, and compliance monitoring. Any malicious or illegal use is strictly prohibited.
-🔒 PROHIBITED ACTIVITIES INCLUDE BUT ARE NOT LIMITED TO:
-Activity	Description	Severity
-📡 Unauthorized Signal Interception	Eavesdropping on private communications without explicit permission	🔴 HIGH
-🎯 Signal Jamming	Disrupting legitimate communications (emergency services, aviation, public safety)	🔴 HIGH
-🕵️ Signal Spoofing	Impersonating authorized transmitters or creating fake signals	🔴 HIGH
-🏢 Unauthorized Penetration Testing	Testing systems without written authorization	🟡 MEDIUM
-📶 Privacy Violations	Monitoring individuals without consent	🔴 HIGH
-⚡ Critical Infrastructure Interference	Tampering with power grids, water systems, transportation	🔴 HIGH
-🚨 Emergency Service Disruption	Interfering with police, fire, medical communications	🔴 HIGH
-✈️ Aviation Safety Systems	Tampering with ADS-B, TCAS, or other aviation safety signals	🔴 HIGH
-🏥 Medical Device Interference	Disrupting wireless medical equipment	🔴 HIGH
-🔐 Security System Bypass	Circumventing alarm systems or access controls	🟡 MEDIUM
-🌟 Overview
+![RF Scanner AI](https://img.shields.io/badge/RF-Scanner%20AI-blue)
+![Python](https://img.shields.io/badge/Python-3.8%2B-green)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
+![AI/ML/DL](https://img.shields.io/badge/AI-ML%2FDL%20Powered-orange)
 
-RF Scanner AI is a comprehensive, enterprise-grade RF signal monitoring and analysis system that leverages cutting-edge Artificial Intelligence and Machine Learning technologies. Designed for professionals, researchers, and security experts, this platform provides real-time spectrum analysis, advanced signal classification, and intelligent threat detection across the entire RF spectrum.
-🚀 Key Features
-🎯 Core Capabilities
+![SDR](https://img.shields.io/badge/SDR-HackRF%2FRTL--SDR-brightgreen)
+![Real-time](https://img.shields.io/badge/Real--time-Monitoring-red)
+![Dashboard](https://img.shields.io/badge/Dual-Dashboard-9cf)
+![Database](https://img.shields.io/badge/Database-SQLite-ff69b4)
 
-    📡 Real-time RF Monitoring - Continuous spectrum scanning from 10MHz to 6GHz
+![Web](https://img.shields.io/badge/Web-Flask-yellow)
+![ML](https://img.shields.io/badge/ML-TensorFlow%2FPyTorch-orange)
+![Version](https://img.shields.io/badge/Version-1.0.0-blueviolet)
+![Compliance](https://img.shields.io/badge/Compliance-FCC%2FITAR%2FWARP-brightgreen)
 
-    🧠 AI/ML Signal Classification - Deep Learning models for automatic modulation recognition
+![Ethical Use](https://img.shields.io/badge/Ethical%20Use-Required-important)
 
-    🌐 Dual Dashboard Interface - Web-based GUI + Advanced terminal dashboard
+</div>
 
-    🚨 Intelligent Alert System - AI-powered anomaly detection and automatic alerts
+## ⚠️ LEGAL AND ETHICAL USE WARNING
 
-    💾 SQL Database Integration - Complete data storage, analytics, and reporting
+### 🚫 STRICT PROHIBITION OF MALICIOUS ACTIVITIES
 
-    🔧 Multi-interface Access - Web, terminal, API, and mobile-responsive interfaces
+**RF Scanner AI is developed strictly for legitimate purposes including research, education, authorized security testing, and compliance monitoring. Any malicious or illegal use is strictly prohibited.**
 
-    🏗️ Modular Architecture - Extensible, customizable, and scalable design
+#### 🔒 PROHIBITED ACTIVITIES INCLUDE BUT ARE NOT LIMITED TO:
 
-🛡️ Advanced Security Features
+| Activity | Description | Severity |
+|----------|-------------|----------|
+| **📡 Unauthorized Signal Interception** | Eavesdropping on private communications without explicit permission | 🔴 HIGH |
+| **🎯 Signal Jamming** | Disrupting legitimate communications (emergency services, aviation, public safety) | 🔴 HIGH |
+| **🕵️ Signal Spoofing** | Impersonating authorized transmitters or creating fake signals | 🔴 HIGH |
+| **🏢 Unauthorized Penetration Testing** | Testing systems without written authorization | 🟡 MEDIUM |
+| **📶 Privacy Violations** | Monitoring individuals without consent | 🔴 HIGH |
+| **⚡ Critical Infrastructure Interference** | Tampering with power grids, water systems, transportation | 🔴 HIGH |
+| **🚨 Emergency Service Disruption** | Interfering with police, fire, medical communications | 🔴 HIGH |
+| **✈️ Aviation Safety Systems** | Tampering with ADS-B, TCAS, or other aviation safety signals | 🔴 HIGH |
+| **🏥 Medical Device Interference** | Disrupting wireless medical equipment | 🔴 HIGH |
+| **🔐 Security System Bypass** | Circumventing alarm systems or access controls | 🟡 MEDIUM |
 
-    Threat Detection - Automatic identification of malicious signals and intrusions
+---
 
-    Vulnerability Assessment - Comprehensive RF security analysis
+## 🌟 Overview
 
-    Compliance Monitoring - Regulatory compliance and spectrum policy enforcement
+**RF Scanner AI** is a comprehensive, enterprise-grade RF signal monitoring and analysis system that leverages cutting-edge Artificial Intelligence and Machine Learning technologies. Designed for professionals, researchers, and security experts, this platform provides real-time spectrum analysis, advanced signal classification, and intelligent threat detection across the entire RF spectrum.
 
-    Forensic Analysis - Detailed signal history and incident reconstruction
+---
 
-📊 Analytics & Reporting
+## 🚀 Key Features
 
-    Real-time Visualization - Interactive charts, graphs, and spectrum displays
+### 🎯 Core Capabilities
+- **📡 Real-time RF Monitoring** - Continuous spectrum scanning from 10MHz to 6GHz
+- **🧠 AI/ML Signal Classification** - Deep Learning models for automatic modulation recognition
+- **🌐 Dual Dashboard Interface** - Web-based GUI + Advanced terminal dashboard
+- **🚨 Intelligent Alert System** - AI-powered anomaly detection and automatic alerts
+- **💾 SQL Database Integration** - Complete data storage, analytics, and reporting
+- **🔧 Multi-interface Access** - Web, terminal, API, and mobile-responsive interfaces
+- **🏗️ Modular Architecture** - Extensible, customizable, and scalable design
 
-    Automated Reporting - Scheduled PDF, CSV, and HTML reports
+### 🛡️ Advanced Security Features
+- **Threat Detection** - Automatic identification of malicious signals and intrusions
+- **Vulnerability Assessment** - Comprehensive RF security analysis
+- **Compliance Monitoring** - Regulatory compliance and spectrum policy enforcement
+- **Forensic Analysis** - Detailed signal history and incident reconstruction
 
-    Trend Analysis - Long-term signal pattern recognition
+### 📊 Analytics & Reporting
+- **Real-time Visualization** - Interactive charts, graphs, and spectrum displays
+- **Automated Reporting** - Scheduled PDF, CSV, and HTML reports
+- **Trend Analysis** - Long-term signal pattern recognition
+- **Export Capabilities** - Multiple format support for data analysis
 
-    Export Capabilities - Multiple format support for data analysis
+---
 
-⚖️ LEGAL COMPLIANCE FRAMEWORK
-📜 Regulatory Compliance
+## ⚖️ LEGAL COMPLIANCE FRAMEWORK
 
+### 📜 Regulatory Compliance
 This software is designed to comply with international regulations including:
 
-    🇺🇸 FCC Part 15 - Unintentional radiators and RF devices
+- **🇺🇸 FCC Part 15** - Unintentional radiators and RF devices
+- **🇺🇸 FCC Part 97** - Amateur Radio Service
+- **🇺🇸 ITAR Regulations** - International Traffic in Arms Regulations
+- **🇪🇺 ETSI Standards** - European Telecommunications Standards Institute
+- **🇬🇧 Ofcom Regulations** - UK communications regulator
+- **🇦🇺 ACMA Regulations** - Australian Communications and Media Authority
+- **🌍 WARP Guidelines** - Worldwide Amateur Radio Permits
 
-    🇺🇸 FCC Part 97 - Amateur Radio Service
+### 🔐 Required Authorizations
+**Users must obtain proper authorization for:**
+- 🏢 **Commercial Spectrum Monitoring** - Licensed frequency bands
+- 🔒 **Security Testing** - Written permission from system owners
+- 🎓 **Educational Use** - Institution approval and supervision
+- 🔬 **Research Activities** - Ethics committee approval
+- 🛡️ **Government Use** - Proper security clearance and authorization
 
-    🇺🇸 ITAR Regulations - International Traffic in Arms Regulations
-
-    🇪🇺 ETSI Standards - European Telecommunications Standards Institute
-
-    🇬🇧 Ofcom Regulations - UK communications regulator
-
-    🇦🇺 ACMA Regulations - Australian Communications and Media Authority
-
-    🌍 WARP Guidelines - Worldwide Amateur Radio Permits
-
-🔐 Required Authorizations
-
-Users must obtain proper authorization for:
-
-    🏢 Commercial Spectrum Monitoring - Licensed frequency bands
-
-    🔒 Security Testing - Written permission from system owners
-
-    🎓 Educational Use - Institution approval and supervision
-
-    🔬 Research Activities - Ethics committee approval
-
-    🛡️ Government Use - Proper security clearance and authorization
-
-📝 User Agreement
-
+### 📝 User Agreement
 By using this software, you agree to:
+1. **Comply with all local laws and regulations**
+2. **Obtain proper authorization before monitoring any signals**
+3. **Respect privacy and confidentiality**
+4. **Report vulnerabilities responsibly**
+5. **Not use for malicious or illegal purposes**
+6. **Assume full legal responsibility for your actions**
 
-    Comply with all local laws and regulations
+---
 
-    Obtain proper authorization before monitoring any signals
+## 🏢 Professional Services
 
-    Respect privacy and confidentiality
+### 🔧 Advanced RF Solutions Development
 
-    Report vulnerabilities responsibly
+At **Signal Research Lab**, we specialize in building comprehensive software solutions for all types of RF signals across multiple domains and technologies.
 
-    Not use for malicious or illegal purposes
+#### 🛰️ **Aerospace & Defense Systems**
+- **✈️ ADS-B & Aircraft Monitoring** - Real-time aircraft tracking, flight path analysis, and aviation surveillance systems
+- **🎯 Radar Systems** - Pulse Doppler, FMCW, phased array, and surveillance radar signal processing
+- **🚀 Missile & Weapons Systems** - Guidance systems, telemetry, and RF seeker signal analysis
+- **🛰️ GPS/GNSS Systems** - GPS, GLONASS, Galileo, BeiDou signal processing and spoofing detection
+- **📡 Satellite Communications** - SATCOM, VSAT, and satellite signal intelligence (SIGINT)
 
-    Assume full legal responsibility for your actions
+#### 📶 **Wireless Communication Systems**
+- **📱 Cellular Networks** - 2G/GSM, 3G/UMTS, 4G/LTE, 5G NR signal analysis and network optimization
+- **📶 WiFi Systems** - 802.11a/b/g/n/ac/ax/be signal processing, penetration testing, and performance optimization
+- **🔵 Bluetooth & BLE** - Bluetooth Classic, BLE 5.x, and IoT device signal analysis
+- **🛰️ IoT & LPWAN** - LoRa, Sigfox, NB-IoT, Zigbee, Z-Wave, and Thread protocol analysis
 
-🏢 Professional Services
-🔧 Advanced RF Solutions Development
+#### 🚁 **UAV & Drone Technologies**
+- **🚁 Drone Communication** - DJI, Autel, Parrot, and custom drone RF signal analysis and detection
+- **🎮 Remote Controller Systems** - RC transmitter/receiver signal processing and vulnerability assessment
+- **📹 FPV Video Systems** - Analog and digital FPV video signal analysis and interception
+- **🛸 Anti-Drone Systems** - Drone detection, classification, and mitigation solutions (C-UAS)
 
-At Signal Research Lab, we specialize in building comprehensive software solutions for all types of RF signals across multiple domains and technologies.
-🛰️ Aerospace & Defense Systems
+#### 🌐 **Advanced Signal Intelligence**
+- **🔍 SIGINT/ELINT/COMINT** - Signals intelligence, electronic intelligence, and communications intelligence
+- **📊 Spectrum Management** - Dynamic spectrum access, cognitive radio, and spectrum sharing
+- **🛡️ Electronic Warfare** - Electronic attack, electronic protection, and electronic support measures
+- **🎭 Signal Deception** - Spoofing, jamming detection, and anti-jamming techniques
 
-    ✈️ ADS-B & Aircraft Monitoring - Real-time aircraft tracking, flight path analysis, and aviation surveillance systems
+#### 🎛️ **Industrial & Specialized Systems**
+- **📟 RFID & NFC** - RFID tag tracking, NFC communication analysis, and access control systems
+- **🚗 Automotive Radar** - 24GHz, 77GHz, 79GHz automotive radar for ADAS and autonomous vehicles
+- **🏥 Medical Devices** - Wireless medical device communication and implantable device security
+- **⚡ Smart Grid & Utilities** - Power line communication, smart meter RF analysis, and SCADA systems
 
-    🎯 Radar Systems - Pulse Doppler, FMCW, phased array, and surveillance radar signal processing
+### 🎯 Advanced Problem Resolution Services
 
-    🚀 Missile & Weapons Systems - Guidance systems, telemetry, and RF seeker signal analysis
+#### **Aerospace & Defense Issues**
+- **Radar Signal Processing** - Clutter reduction, target detection, and tracking algorithms
+- **GPS Vulnerabilities** - Spoofing detection, jamming mitigation, and integrity monitoring
+- **Military Communications** - Secure waveform design and interception prevention
+- **Aviation Safety** - ADS-B security, collision avoidance systems, and air traffic management
 
-    🛰️ GPS/GNSS Systems - GPS, GLONASS, Galileo, BeiDou signal processing and spoofing detection
+#### **Wireless Network Optimization**
+- **Cellular Interference** - Co-channel interference, adjacent channel interference resolution
+- **Network Capacity** - Spectrum efficiency optimization and congestion management
+- **Quality of Service** - Signal quality improvement and dropped connection analysis
+- **Security Vulnerabilities** - Rogue base station detection and man-in-the-middle attacks
 
-    📡 Satellite Communications - SATCOM, VSAT, and satellite signal intelligence (SIGINT)
+#### **Drone & UAV Security**
+- **Drone Detection** - RF fingerprinting and pattern recognition for UAV identification
+- **Communication Interception** - Drone controller and telemetry signal analysis
+- **Counter-UAS Solutions** - Signal jamming and spoofing mitigation techniques
+- **Regulatory Compliance** - Airspace monitoring and unauthorized drone detection
 
-📶 Wireless Communication Systems
+#### **Emergency & Public Safety**
+- **First Responder Communications** - Police, fire, EMS radio system optimization
+- **Emergency Broadcast** - EAS, CAP, and public warning system monitoring
+- **Critical Infrastructure** - Power plant, water facility communication security
+- **Disaster Recovery** - Temporary communication system deployment and management
 
-    📱 Cellular Networks - 2G/GSM, 3G/UMTS, 4G/LTE, 5G NR signal analysis and network optimization
-
-    📶 WiFi Systems - 802.11a/b/g/n/ac/ax/be signal processing, penetration testing, and performance optimization
-
-    🔵 Bluetooth & BLE - Bluetooth Classic, BLE 5.x, and IoT device signal analysis
-
-    🛰️ IoT & LPWAN - LoRa, Sigfox, NB-IoT, Zigbee, Z-Wave, and Thread protocol analysis
-
-🚁 UAV & Drone Technologies
-
-    🚁 Drone Communication - DJI, Autel, Parrot, and custom drone RF signal analysis and detection
-
-    🎮 Remote Controller Systems - RC transmitter/receiver signal processing and vulnerability assessment
-
-    📹 FPV Video Systems - Analog and digital FPV video signal analysis and interception
-
-    🛸 Anti-Drone Systems - Drone detection, classification, and mitigation solutions (C-UAS)
-
-🌐 Advanced Signal Intelligence
-
-    🔍 SIGINT/ELINT/COMINT - Signals intelligence, electronic intelligence, and communications intelligence
-
-    📊 Spectrum Management - Dynamic spectrum access, cognitive radio, and spectrum sharing
-
-    🛡️ Electronic Warfare - Electronic attack, electronic protection, and electronic support measures
-
-    🎭 Signal Deception - Spoofing, jamming detection, and anti-jamming techniques
-
-🎛️ Industrial & Specialized Systems
-
-    📟 RFID & NFC - RFID tag tracking, NFC communication analysis, and access control systems
-
-    🚗 Automotive Radar - 24GHz, 77GHz, 79GHz automotive radar for ADAS and autonomous vehicles
-
-    🏥 Medical Devices - Wireless medical device communication and implantable device security
-
-    ⚡ Smart Grid & Utilities - Power line communication, smart meter RF analysis, and SCADA systems
-
-🎯 Advanced Problem Resolution Services
-Aerospace & Defense Issues
-
-    Radar Signal Processing - Clutter reduction, target detection, and tracking algorithms
-
-    GPS Vulnerabilities - Spoofing detection, jamming mitigation, and integrity monitoring
-
-    Military Communications - Secure waveform design and interception prevention
-
-    Aviation Safety - ADS-B security, collision avoidance systems, and air traffic management
-
-Wireless Network Optimization
-
-    Cellular Interference - Co-channel interference, adjacent channel interference resolution
-
-    Network Capacity - Spectrum efficiency optimization and congestion management
-
-    Quality of Service - Signal quality improvement and dropped connection analysis
-
-    Security Vulnerabilities - Rogue base station detection and man-in-the-middle attacks
-
-Drone & UAV Security
-
-    Drone Detection - RF fingerprinting and pattern recognition for UAV identification
-
-    Communication Interception - Drone controller and telemetry signal analysis
-
-    Counter-UAS Solutions - Signal jamming and spoofing mitigation techniques
-
-    Regulatory Compliance - Airspace monitoring and unauthorized drone detection
-
-Emergency & Public Safety
-
-    First Responder Communications - Police, fire, EMS radio system optimization
-
-    Emergency Broadcast - EAS, CAP, and public warning system monitoring
-
-    Critical Infrastructure - Power plant, water facility communication security
-
-    Disaster Recovery - Temporary communication system deployment and management
-
-📊 System Architecture
-text
+---
 
 RF Signals → SDR Hardware → AI Processing → SQL Database → Dual Dashboards
-     ↓              ↓             ↓             ↓             ↓
-  Multiple    HackRF/RTL    TensorFlow    SQLite/MySQL   Web + Terminal
-  Frequency   USRP/LimeS    PyTorch CNN   PostgreSQL     Real-time
-   Bands       PySDR         ML Models    Analytics      Visualization
+↓ ↓ ↓ ↓ ↓
+Multiple HackRF/RTL TensorFlow SQLite/MySQL Web + Terminal
+Frequency USRP/LimeS PyTorch CNN PostgreSQL Real-time
+Bands PySDR ML Models Analytics Visualization
 
-🏗️ Technical Architecture
 
-    Frontend: Flask Web Dashboard + Rich Terminal UI
+### 🏗️ Technical Architecture
+- **Frontend**: Flask Web Dashboard + Rich Terminal UI
+- **Backend**: Python 3.8+ with Async Processing
+- **AI/ML**: TensorFlow, PyTorch, Scikit-learn
+- **Database**: SQLAlchemy ORM with SQLite/MySQL/PostgreSQL
+- **Signal Processing**: NumPy, SciPy, GNU Radio
+- **Visualization**: Plotly, Matplotlib, Seaborn
 
-    Backend: Python 3.8+ with Async Processing
+---
 
-    AI/ML: TensorFlow, PyTorch, Scikit-learn
+## 🛠️ Installation
 
-    Database: SQLAlchemy ORM with SQLite/MySQL/PostgreSQL
+### Prerequisites
 
-    Signal Processing: NumPy, SciPy, GNU Radio
-
-    Visualization: Plotly, Matplotlib, Seaborn
-
-🛠️ Installation
-Prerequisites
-
-    Python 3.8+
-
-    4GB RAM minimum (8GB recommended)
-
-    20GB storage for data and models
-
-    SDR Hardware (Optional - runs in simulation mode)
-
-🚀 Quick Installation
-Method 1: Automated Install (Recommended)
-bash
-
-git clone https://github.com/signalresearchlab/rf-scan-AI-ML-DL-Professional.git
-cd rf-scan-AI-ML-DL-Professional
-chmod +x install.sh
-./install.sh
-
-Method 2: Manual Installation
-bash
-
-# Clone repository
+- **Python 3.8+** 
+- **4GB RAM minimum** (8GB recommended)
+- **20GB storage** for data and models
+- **SDR Hardware** (Optional - runs in simulation mode)# Clone repository
 git clone https://github.com/signalresearchlab/rf-scan-AI-ML-DL-Professional.git
 cd rf-scan-AI-ML-DL-Professional
 
@@ -284,7 +219,6 @@ python3 database_setup.py
 mkdir -p saved_data/{database,monitoring,spectrum,ml,cnn,reports,models}
 
 Method 3: Docker Installation
-bash
 
 # Using Docker Compose
 docker-compose up -d
@@ -293,17 +227,24 @@ docker-compose up -d
 docker build -t rf-scanner-ai .
 docker run -p 5000:5000 -p 8080:8080 rf-scanner-ai
 
+
 📦 Dependencies
+<div align="center">
 
 https://img.shields.io/badge/NumPy-1.21%252B-blue
 https://img.shields.io/badge/SciPy-1.7%252B-blue
 https://img.shields.io/badge/Pandas-1.3%252B-orange
 https://img.shields.io/badge/Matplotlib-3.5%252B-yellow
+
 https://img.shields.io/badge/Scikit--learn-1.0%252B-orange
 https://img.shields.io/badge/TensorFlow-2.8%252B-ff6f00
 https://img.shields.io/badge/PyTorch-1.9%252B-red
 https://img.shields.io/badge/Flask-2.0%252B-green
+
 https://img.shields.io/badge/SQLAlchemy-1.4%252B-lightgrey
+</div>
+
+
 🎮 Usage
 🚀 Quick Start (All Services)
 
@@ -319,26 +260,8 @@ Alert System	python3 alerts.py	Terminal	-
 Terminal Dashboard	python3 enhanced_dashboard.py	Terminal	-
 Main RF System	python3 start.py	Terminal	-
 API Server	python3 api_server.py	http://localhost:8080	8080
+
 💻 CLI Commands (After Package Installation)
-bash
-
-# Main CLI interface
-rf-scan --help
-
-# Start web dashboard
-rf-scan-dashboard
-
-# Start monitoring
-rf-scan-monitor
-
-# Signal analysis
-rf-scan analyze --frequency 2.4G --duration 30
-
-# Generate report
-rf-scan report --type daily --output report.pdf
-
-🎯 Advanced Usage Examples
-bash
 
 # Specific frequency scanning
 python3 monitor.py --freq 2.4G --bandwidth 20M --gain 30
@@ -355,6 +278,25 @@ python3 database_query.py --query "SELECT * FROM signals WHERE power > -50"
 # Custom alert rules
 python3 alerts.py --rules custom_rules.json --action email
 
+
+🎯 Advanced Usage Examples
+
+# Specific frequency scanning
+python3 monitor.py --freq 2.4G --bandwidth 20M --gain 30
+
+# ML model training
+python3 ml.py --train --dataset custom_data --model xgboost
+
+# Deep learning analysis
+python3 cnn.py --model resnet50 --input iq_data --output predictions
+
+# Database queries
+python3 database_query.py --query "SELECT * FROM signals WHERE power > -50"
+
+# Custom alert rules
+python3 alerts.py --rules custom_rules.json --action email
+
+
 📡 Supported SDR Hardware
 Device	Support Level	Frequency Range	Features
 HackRF One	🔵 Full Support	1MHz-6GHz	TX/RX, 20MS/s
@@ -362,9 +304,7 @@ RTL-SDR	🟢 Basic Support	500kHz-1.75GHz	Low-cost, USB
 USRP B-series	🟡 Advanced Support	DC-6GHz	Professional grade
 LimeSDR	🟠 Experimental	100kHz-3.8GHz	FPGA, MIMO
 BladeRF	🟡 Advanced Support	300MHz-3.8GHz	FPGA, RX/TX
-Airspy	🟢 Good Support	24MHz-1.8GHz	High dynamic range
-Simulation Mode	🔴 No Hardware	All frequencies	Testing and development
-🎯 System Components
+Airspy	🟢 Good Support	24MHz-1.8GHz	High dynamic range🎯 System Components
 🐍 Core Modules
 
     start.py - 🏁 Main system entry point and orchestrator
@@ -386,6 +326,7 @@ Simulation Mode	🔴 No Hardware	All frequencies	Testing and development
     database_manager.py - 💾 Advanced database operations and optimization
 
     database_query.py - 🔍 Complex data querying and analytics tools
+
 
 📊 Dashboards & UI
 
@@ -411,6 +352,9 @@ Simulation Mode	🔴 No Hardware	All frequencies	Testing and development
 
     exporters.py - 📤 Data export to various formats (CSV, JSON, PDF)
 
+
+
+
 🤖 AI/ML Capabilities
 🧠 Signal Classification Models
 Model Type	Accuracy	Use Case	Training Data
@@ -420,6 +364,8 @@ Support Vector Machine	85%	Anomaly Detection	Multi-class
 XGBoost	90%	Real-time Classification	Streaming data
 LSTM Networks	92%	Temporal Pattern Recognition	Time series
 Transformer Models	96%	Advanced Modulation	Large datasets
+
+
 📡 Supported Signal Types
 Analog Modulations
 
@@ -484,6 +430,7 @@ Wireless Standards
 
     Progressive Loading - Fast loading even with large datasets
 
+
 🚨 Advanced Alert System
 🔔 Alert Types
 
@@ -513,10 +460,10 @@ Wireless Standards
 
     Log Files - Structured logging for SIEM integration
 
-📊 Data Management
-🗃️ Database Schema
-sql
 
+
+    📊 Data Management
+🗃️ Database Schema
 -- Core Signal Data
 detected_signals (id, frequency, power, bandwidth, modulation, timestamp)
 spectrum_analysis (id, session_id, frequency_bin, power_density, timestamp)
@@ -531,7 +478,6 @@ alert_history (id, alert_type, severity, message, resolved, timestamp)
 -- User & Configuration
 users (id, username, email, preferences, api_key)
 system_config (id, key, value, description, updated_at)
-
 💾 Export Formats
 
     CSV - Comma-separated values for spreadsheet analysis
@@ -549,8 +495,6 @@ system_config (id, key, value, description, updated_at)
 🔧 Configuration
 ⚙️ Configuration Files
 config.yaml
-yaml
-
 system:
   version: "1.0.0"
   debug: false
@@ -611,8 +555,6 @@ web_dashboard:
 🐛 Troubleshooting
 🔍 Common Issues & Solutions
 Hardware Detection Problems
-bash
-
 # Check SDR device recognition
 python3 -c "from rtlsdr import RtlSdr; print('RTL-SDR detected')"
 
@@ -622,8 +564,8 @@ lsusb | grep -i sdr
 # Test basic functionality
 python3 test_hardware.py --device hackrf
 
+
 Performance Optimization
-bash
 
 # Increase system limits for SDR operations
 echo 'vm.swappiness=10' >> /etc/sysctl.conf
@@ -632,9 +574,6 @@ echo 'net.core.rmem_max=26214400' >> /etc/sysctl.conf
 # Optimize Python for real-time processing
 export PYTHONUNBUFFERED=1
 export OMP_NUM_THREADS=4
-
-Database Issues
-bash
 
 # Reset and reinitialize database
 python3 database_setup.py --reset --force
@@ -645,8 +584,18 @@ python3 database_manager.py --repair
 # Backup current data
 python3 database_manager.py --backup backup_$(date +%Y%m%d).db
 
+
+Database Issues
+# Reset and reinitialize database
+python3 database_setup.py --reset --force
+
+# Repair corrupted database
+python3 database_manager.py --repair
+
+# Backup current data
+python3 database_manager.py --backup backup_$(date +%Y%m%d).db
+
 🎯 Debug Mode
-bash
 
 # Enable verbose logging
 python3 start.py --verbose --debug
@@ -656,7 +605,6 @@ python3 monitor.py --log-level DEBUG --log-file monitor.log
 
 # Performance profiling
 python3 -m cProfile -o profile.stats start.py
-
 ⚖️ ETHICAL USE AND RESPONSIBLE DISCLOSURE
 🔒 Responsible Use Policy
 
@@ -754,16 +702,13 @@ MIT License - Full text available in LICENSE file.
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND. USERS ARE SOLELY RESPONSIBLE FOR ENSURING THEIR USE COMPLIES WITH ALL APPLICABLE LAWS AND REGULATIONS. THE AUTHORS AND COPYRIGHT HOLDERS SHALL NOT BE HELD LIABLE FOR ANY MISUSE, DAMAGES, OR LEGAL VIOLATIONS RESULTING FROM THE USE OF THIS SOFTWARE.
 
 ALWAYS CONSULT WITH LEGAL COUNSEL AND OBTAIN PROPER AUTHORIZATIONS BEFORE DEPLOYING OR USING THIS SOFTWARE IN ANY CAPACITY.
-<div align="center">
+
 ⭐ If you find this project useful, please give it a star on GitHub!
 
 Built with ❤️ by Signal Research Lab
 
-https://img.shields.io/badge/Made%2520with-Python-3776AB?style=for-the-badge&logo=python&logoColor=white
-https://img.shields.io/badge/Web%2520Framework-Flask-000000?style=for-the-badge&logo=flask&logoColor=white
-https://img.shields.io/badge/ML-Framework-TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white
-https://img.shields.io/badge/Ethical%2520Use-Required-important?style=for-the-badge
-</div>
+
+
 🔄 Version History
 
     v1.0.0 (Current) - Initial release with dual dashboards and AI/ML capabilities
@@ -778,13 +723,3 @@ GitHub: github.com/signalresearchlab
 Services: Custom RF software development, problem resolution, vulnerability assessment, and AI/ML solutions
 
 ⚠️ REMEMBER: ALWAYS USE RESPONSIBLY AND LEGALLY!
-<div align="center">
-🔗 Connect With Us
-
-https://img.shields.io/badge/Email-Support-red?style=for-the-badge&logo=gmail
-https://img.shields.io/badge/WhatsApp-Chat-green?style=for-the-badge&logo=whatsapp
-https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github
-https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin
-</div>
-
-Now the badges are properly formatted and will display correctly on GitHub! The README is complete and ready for your repository.
