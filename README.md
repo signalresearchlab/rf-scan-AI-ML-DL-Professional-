@@ -18,27 +18,17 @@ https://img.shields.io/badge/Ethical%2520Use-Required-important
 
 RF Scanner AI is developed strictly for legitimate purposes including research, education, authorized security testing, and compliance monitoring. Any malicious or illegal use is strictly prohibited.
 🔒 PROHIBITED ACTIVITIES INCLUDE BUT ARE NOT LIMITED TO:
-
-    📡 Unauthorized Signal Interception - Eavesdropping on private communications without explicit permission
-
-    🎯 Signal Jamming - Disrupting legitimate communications (emergency services, aviation, public safety)
-
-    🕵️ Signal Spoofing - Impersonating authorized transmitters or creating fake signals
-
-    🏢 Unauthorized Penetration Testing - Testing systems without written authorization
-
-    📶 Privacy Violations - Monitoring individuals without consent
-
-    ⚡ Critical Infrastructure Interference - Tampering with power grids, water systems, transportation
-
-    🚨 Emergency Service Disruption - Interfering with police, fire, medical communications
-
-    ✈️ Aviation Safety Systems - Tampering with ADS-B, TCAS, or other aviation safety signals
-
-    🏥 Medical Device Interference - Disrupting wireless medical equipment
-
-    🔐 Security System Bypass - Circumventing alarm systems or access controls
-
+Activity	Description	Severity
+📡 Unauthorized Signal Interception	Eavesdropping on private communications without explicit permission	🔴 HIGH
+🎯 Signal Jamming	Disrupting legitimate communications (emergency services, aviation, public safety)	🔴 HIGH
+🕵️ Signal Spoofing	Impersonating authorized transmitters or creating fake signals	🔴 HIGH
+🏢 Unauthorized Penetration Testing	Testing systems without written authorization	🟡 MEDIUM
+📶 Privacy Violations	Monitoring individuals without consent	🔴 HIGH
+⚡ Critical Infrastructure Interference	Tampering with power grids, water systems, transportation	🔴 HIGH
+🚨 Emergency Service Disruption	Interfering with police, fire, medical communications	🔴 HIGH
+✈️ Aviation Safety Systems	Tampering with ADS-B, TCAS, or other aviation safety signals	🔴 HIGH
+🏥 Medical Device Interference	Disrupting wireless medical equipment	🔴 HIGH
+🔐 Security System Bypass	Circumventing alarm systems or access controls	🟡 MEDIUM
 🌟 Overview
 
 RF Scanner AI is a comprehensive, enterprise-grade RF signal monitoring and analysis system that leverages cutting-edge Artificial Intelligence and Machine Learning technologies. Designed for professionals, researchers, and security experts, this platform provides real-time spectrum analysis, advanced signal classification, and intelligent threat detection across the entire RF spectrum.
@@ -765,6 +755,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND. USERS ARE SOLELY
 
 ALWAYS CONSULT WITH LEGAL COUNSEL AND OBTAIN PROPER AUTHORIZATIONS BEFORE DEPLOYING OR USING THIS SOFTWARE IN ANY CAPACITY.
 
+
 ⭐ If you find this project useful, please give it a star on GitHub!
 
 Built with ❤️ by Signal Research Lab
@@ -788,4 +779,13 @@ GitHub: github.com/signalresearchlab
 Services: Custom RF software development, problem resolution, vulnerability assessment, and AI/ML solutions
 
 ⚠️ REMEMBER: ALWAYS USE RESPONSIBLY AND LEGALLY!
+
+🔗 Connect With Us
+
+https://img.shields.io/badge/Email-Support-red?style=for-the-badge&logo=gmail
+https://img.shields.io/badge/WhatsApp-Chat-green?style=for-the-badge&logo=whatsapp
+https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github
+https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin
+
+
 
