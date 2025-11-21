@@ -1,3 +1,14 @@
+"""
+RF Scanner AI - Educational Use Only
+====================================
+WARNING: This software is for EDUCATIONAL and RESEARCH purposes only.
+
+PROHIBITED: Illegal surveillance, privacy violation, unauthorized access
+LEGAL: Users must comply with all applicable laws and regulations
+
+Developer: Shahnawaz Khurram - Signal Research Lab
+Contact: signalresearchlab@gmail.com
+"""
 # web_dashboard.py - Web-based RF Monitoring Dashboard
 from flask import Flask, render_template, jsonify
 import sqlite3

@@ -1,3 +1,14 @@
+"""
+RF Scanner AI - Educational Use Only
+====================================
+WARNING: This software is for EDUCATIONAL and RESEARCH purposes only.
+
+PROHIBITED: Illegal surveillance, privacy violation, unauthorized access
+LEGAL: Users must comply with all applicable laws and regulations
+
+Developer: Shahnawaz Khurram - Signal Research Lab
+Contact: signalresearchlab@gmail.com
+"""
 # enhanced_dashboard.py - Dashboard with Alerts and Analytics
 import sqlite3
 import pandas as pd

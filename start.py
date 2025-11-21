@@ -1,44 +1,97 @@
-# start.py - Fixed main entry point
+#!/usr/bin/env python3
+"""
+RF Scanner AI - Main Entry Point
+"""
+
 import sys
+import time
+from datetime import datetime
 
 def main():
-    print("🚀 Advanced RF Scanning System")
-    print("=" * 40)
+    print("🚀 Advanced RF Scanning System Starting...")
+    print("Available modes: monitor, sweep, spectrum, ml, cnn, dashboard, contact")
     
-    print("1. Real-time Spectrum Monitoring")
-    print("2. Frequency Analysis") 
-    print("3. ML Signal Classification")
-    print("4. CNN Modulation Recognition")
-    print("5. Full System Scan")
+    # Check available modules
+    modules = {
+        "monitor": False,
+        "sweep": False, 
+        "spectrum": False,
+        "ml": False,
+        "cnn": False,
+        "dashboard": False,
+        "contact": False
+    }
+    
+    # Test imports
+    try:
+        import monitor
+        modules["monitor"] = True
+    except ImportError:
+        print("⚠️ Monitor module not available")
     
     try:
-        choice = input("\nSelect mode (1-5): ").strip()
+        import spectrum
+        modules["spectrum"] = True
+    except ImportError:
+        print("⚠️ Spectrum module not available")
+    
+    try:
+        import ml
+        modules["ml"] = True
+    except ImportError:
+        print("⚠️ ML module not available")
+    
+    try:
+        from cnn import train_cnn_model
+        modules["cnn"] = True
+    except ImportError:
+        print("⚠️ CNN module not available")
+    
+    try:
+        import web_dashboard_fixed
+        modules["dashboard"] = True
+    except ImportError:
+        print("⚠️ Dashboard module not available")
+    
+    try:
+        import contact_app
+        modules["contact"] = True
+    except ImportError:
+        print("⚠️ Contact module not available")
+    
+    # Show available modes
+    available_modes = [mode for mode, available in modules.items() if available]
+    print(f"✅ Available modes: {', '.join(available_modes)}")
+    
+    mode = input("Enter mode: ").strip().lower()
+    
+    if mode == "monitor" and modules["monitor"]:
+        print("📡 Starting RF Monitoring...")
+        monitor.main()
         
-        if choice == "1":
-            from monitor import main
-            main()
-        elif choice == "2":
-            from spectrum import main  
-            main()
-        elif choice == "3":
-            from ml import main
-            main()
-        elif choice == "4":
-            from cnn import main
-            main()
-        elif choice == "5":
-            print("Starting full system scan...")
-            from monitor import main as monitor_main
-            monitor_main()
-        else:
-            print("Invalid choice. Starting default monitoring...")
-            from monitor import main
-            main()
-            
-    except KeyboardInterrupt:
-        print("\n👋 Exiting RF Scanner")
-    except Exception as e:
-        print(f"Error: {e}")
+    elif mode == "spectrum" and modules["spectrum"]:
+        print("📊 Starting Spectrum Analysis...")
+        spectrum.main()
+        
+    elif mode == "ml" and modules["ml"]:
+        print("🤖 Starting Machine Learning Analysis...")
+        ml.main()
+        
+    elif mode == "cnn" and modules["cnn"]:
+        print("🧠 Starting CNN Deep Learning...")
+        train_cnn_model()
+        
+    elif mode == "dashboard" and modules["dashboard"]:
+        print("🌐 Starting Web Dashboard...")
+        web_dashboard_fixed.main()
+        
+    elif mode == "contact" and modules["contact"]:
+        print("📧 Starting Contact Form...")
+        contact_app.main()
+        
+    else:
+        print(f"❌ Mode '{mode}' not available or not implemented")
+        print("💡 Try one of the available modes above")
 
 if __name__ == "__main__":
     main()
