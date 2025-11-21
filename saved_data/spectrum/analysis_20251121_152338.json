@@ -1,0 +1,12 @@
+{
+  "session_info": {
+    "start_time": "2025-11-21T15:24:20.974032",
+    "total_analyses": 0,
+    "frequency_range": [
+      1000000.0,
+      6000000000.0
+    ],
+    "sample_rate": 2000000.0
+  },
+  "spectrum_data": []
+}

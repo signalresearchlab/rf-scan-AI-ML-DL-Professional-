@@ -1,0 +1,16 @@
+{
+  "timestamp": "2025-11-21T20:46:44.685568",
+  "models": [
+    "rf",
+    "svm",
+    "xgb",
+    "gb"
+  ],
+  "feature_count": 0,
+  "model_types": {
+    "rf": "RandomForestClassifier",
+    "svm": "SVC",
+    "xgb": "XGBClassifier",
+    "gb": "GradientBoostingClassifier"
+  }
+}

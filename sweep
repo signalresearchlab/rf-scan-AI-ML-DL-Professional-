@@ -1,0 +1,21 @@
+#!/bin/bash
+# advanced_scan.sh
+
+# Frequency ranges for different services
+CELLULAR="800M:960M 1700M:1900M 1900M:2200M"
+WIFI="2.4G:2.5G 5.1G:5.9G"
+BLUETOOTH="2.4G:2.485G"
+GPS="1.1G:1.6G"
+RADIO="50M:150M 500M:1700M"
+
+echo "Starting comprehensive RF scan..."
+
+# Use rtl_power for wide spectrum analysis
+rtl_power -f 24M:1700M:1M -i 1m -g 50 -c 20% scan_results.csv
+
+# Use hackrf_sweep for wider range
+hackrf_sweep -f 1:6000 -w 1000000 -r sweep_data.csv
+
+# Analyze with Python ML scripts
+python3 ml_analyzer.py scan_results.csv
+python3 dl_classifier.py sweep_data.csv

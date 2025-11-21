@@ -1,0 +1,17 @@
+
+RF SCANNING ANALYTICS REPORT
+Generated: 2025-11-21 15:28:05
+
+SUMMARY:
+- Total signals analyzed: 11
+- Time period coverage: 1 hours
+- Frequency range: 88.0 - 2541.1 MHz
+
+KEY INSIGHTS:
+- Most common signal type: FM
+- Average signal power: -50.2 dBm
+- Signal detection rate: 0.5 signals/hour
+
+CORRELATIONS:
+Frequency vs Power: 0.357
+        

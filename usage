@@ -1,0 +1,48 @@
+cd "/home/lts/PycharmProjects/mysoftware "
+🎮 Quick Start
+Starting the Complete System
+
+Open 4 terminal windows and run these commands:
+
+Terminal 1 - Web Dashboard:
+bash
+
+python3 web_dashboard_fixed.py
+
+🌐 Access: http://localhost:5000
+
+Terminal 2 - Alert System:
+bash
+
+python3 alerts.py
+
+Terminal 3 - Terminal Dashboard:
+bash
+
+python3 enhanced_dashboard.py
+
+Terminal 4 - Main RF System:
+bash
+
+python3 start.py
+
+Individual Module Usage
+bash
+
+# Real-time monitoring only
+python3 monitor.py
+
+# Spectrum analysis
+python3 spectrum.py
+
+# Machine Learning analysis
+python3 ml.py
+
+# Deep Learning models
+python3 cnn.py
+
+# Database queries
+python3 database_query.py
+
+# Analytics and reports
+python3 analytics.py
