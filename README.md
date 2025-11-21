@@ -1,38 +1,3 @@
-<div align="center">
-
-# Signal Research Lab
-
-╔╦╗┌─┐┌─┐┌┐ ┌─┐┌─┐  ╦═╗┌─┐┌─┐┬─┐┌─┐┌┬┐┬┌─┐┌┐┌
- ║ ├┤ ├─┤├┴┐├┤ │    ╠╦╝├┤ │ │├┬┘├─┤ │ ││ ││││
- ╩ └─┘┴ ┴└─┘└─┘┴    ╩╚═└─┘└─┘┴└─┴ ┴ ┴ ┴└─┘┘└┘
-
-## **RF-Scan AI/ML/DL Professional**
-### *Director: Shahnawaz Khurram*
-
-![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?logo=python&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-FF6F00?logo=tensorflow&logoColor=white)
-![ML](https://img.shields.io/badge/Machine-Learning-FF6B6B)
-![DL](https://img.shields.io/badge/Deep-Learning-4ECDC4)
-![License](https://img.shields.io/badge/License-MIT-green)
-![Research](https://img.shields.io/badge/Research-Lab-orange)
-
-**Advanced RF Signal Analysis | AI/ML Research | Deep Learning Applications**
-
----
-
-## 🚀 Features
-
-- **Real-time RF Spectrum Analysis**
-- **AI/ML Powered Signal Classification** 
-- **Deep Learning Pattern Recognition**
-- **Web Dashboard for Monitoring**
-- **Automated Reporting System**
-- **Signal Intelligence Processing**
-
-## 📁 Project Structure
-
-
-
 
 
 # RF Scanner AI 🛰️
