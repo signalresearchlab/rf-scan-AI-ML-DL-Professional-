@@ -740,10 +740,10 @@ Engagement Models
 Get Started
 
 Email: signalresearchlab@gmail.com
+Github : signalresearchlab
 Response Time: Within 24 hours for initial inquiries
 Consultation: Complimentary initial consultation available
 NDA: Available for sensitive projects
-<div align="center">
 
 🔬 Signal Research Lab - Advanced RF Signal Intelligence Solutions
 From Theory to Operational Deployment
@@ -752,7 +752,7 @@ https://img.shields.io/badge/Email-Contact_Us_For_Consultation-red?logo=gmail
 https://img.shields.io/badge/GitHub-View_Our_Projects-181717?logo=github
 
 Trusted by Defense, Telecommunications, and Security Professionals Worldwide
-</div>
+
 
 Let's discuss how we can solve your specific signal intelligence challenges. Contact us for a confidential consultation.
 
@@ -765,7 +765,6 @@ Let's discuss how we can solve your specific signal intelligence challenges. Con
 
     Radio Operators: Advanced signal analysis techniques
 
-<div align="center">
 
 ⭐ If you find this project useful, please give it a star on GitHub!
 
